@@ -1,0 +1,158 @@
+
+@media only screen and (max-width:500px){
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 0;
+    }
+    a{
+        display: block;
+    }
+    button{
+        display: block;
+        padding: 2vw;
+        font-size: 3vh;
+        background-color: #AFE0FF;
+        /* remove default border*/
+        border: none;
+        cursor: pointer;
+
+        /* put button on the left*/
+
+        align-self: flex-start;
+
+    }
+}
+
+
+
+
+.wrapper{
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    width: 30vh;
+
+    /*copied*/
+    
+        color: #20bf6b !important;
+        text-transform: uppercase;
+        background:/* #ffffff*/ lightblue;
+        padding: 20px;
+        border: 4px solid #20bf6b !important;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        
+}
+
+.button:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    }
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background:url("https://res.cloudinary.com/dev-sam/image/upload/v1575669428/tim-foster-Odhl-kitI2c-unsplash_i20sos.jpg") no-repeat;
+ 
+      background-size:cover;
+}
+
+
+ul{
+
+    margin: 0;
+    padding: 0;    
+    display: flex;
+    
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 2vw;
+    font-size: 3vh;
+
+    
+
+}
+
+a{
+    font-family: monospace;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:/* #C6E9FF*/green;
+    color:white;
+}
+
+nav{
+    width: 200vh;
+    background-color: #D6EFFF;
+}
+
+.container-1{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    
+    float: right;
+    
+ flex-direction: column;
+ background: linear-gradient(to top left, /*#4A148C*/rgb(25, 111, 139),/* #C51162*/ green);
+  background-repeat: cover;
+  color: white;
+  
+  height: 80vh;
+  width: 26vw;
+  padding: 10px;
+  border: 2px solid white;
+    
+}
+
+input {
+    margin-bottom: 4vh;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background-color:transparent;
+    outline: none;
+    color: white;
+    caret-color: white;
+    
+  }
+  input[type=text]::placeholder {
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  input[type=submit] {
+    background: rgba(255,255,255,.2);
+    width: 100%;
+    padding: 2vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px 4px;
+  }
+  input[type=email]::placeholder{
+  text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
